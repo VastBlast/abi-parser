@@ -1,0 +1,50 @@
+{
+	"name": "abi-parser",
+	"version": "1.0.0",
+	"description": "NodeJS/JS library for parsing ethereum/web3 logs, events, and methods.",
+	"main": "src/index.js",
+	"scripts": {
+		"build": "webpack",
+		"test": "node tests/test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/VastBlast/abi-parser.git"
+	},
+	"keywords": [
+		"abi",
+		"decoder",
+		"abiparser",
+		"abi-parser",
+		"abi-decoder",
+		"decode",
+		"ethereum",
+		"web3",
+		"web3js"
+	],
+	"bugs": {
+		"url": "https://github.com/VastBlast/abi-parser/issues"
+	},
+	"homepage": "https://github.com/VastBlast/abi-parser#readme",
+	"author": "VastBlast",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"web3-eth-abi": "^1.6.0",
+		"web3-utils": "^1.6.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.2.3",
+		"@babel/core": "^7.2.2",
+		"@babel/plugin-transform-modules-amd": "^7.2.0",
+		"@babel/plugin-transform-runtime": "^7.2.0",
+		"@babel/preset-env": "^7.3.1",
+		"@babel/runtime": "^7.3.1",
+		"babel-loader": "^8.0.5",
+		"babel-plugin-add-module-exports": "^1.0.0",
+		"browserify": "^17.0.0",
+		"buffer": "^6.0.3",
+		"stream-browserify": "^3.0.0",
+		"webpack": "^5.59.1",
+		"webpack-cli": "^4.9.1"
+	}
+}
